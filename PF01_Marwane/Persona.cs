@@ -19,10 +19,17 @@ namespace PF01_Marwane
         {
             Console.WriteLine($"Nombre: {Nombre}, Edad: {Edad}");
         }
+        public void ModificarEdad(int nuevaEdad)
+        {
+            Edad = nuevaEdad;
+        }
 
+        public bool EsMayorDeEdad()
+        {
+            return Edad >= 18;
+        }
 
     }
 
 }
     
-}
